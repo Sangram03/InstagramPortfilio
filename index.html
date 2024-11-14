@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="DALL·E 2024-11-13 23.57.45 - A close-up profile picture of a young boy with intense, fiery elements in the background, symbolizing strength and resilience. The flames are artistic.webp" alt="Profile Picture">
+            <h2>Sangram Das</h2>
+            <p>  Coder</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100056757142646"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/Sangram87661527?s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sangram-das-710397275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/sangramdas_1?igsh=YzljYTk1ODg3Zg=="><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> sangram67@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Balasore, Odisha</p>
+                <p><i class="fas fa-birthday-cake"></i> July 10, 2004</p>
+            </div>
+            <button class="download-cv">Download CV</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div id="about-section" class="content-section active">
+            <h2> About</h2>
+            <p>I'm a Creative .</p>
+        </div>
+
+        <div id="resume-section" class="content-section">
+            <h2>Resume</h2>
+            <p>This is the Resume section content.</p>
+        </div>
+
+        <div id="works-section" class="content-section">
+            <h2>Works</h2>
+            <p>This is the Works section content.</p>
+        </div>
+
+        <div id="blogs-section" class="content-section">
+            <h2>Blogs</h2>
+            <p>This is the Blogs section content.</p>
+        </div>
+
+        <div id="contact-section" class="content-section">
+            <h2>Contact</h2>
+            <p>This is the Contact section content.</p>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+        <ul>
+            <li onclick="showSection('about-section')">About</li>
+            <li onclick="showSection('resume-section')">Resume</li>
+            <li onclick="showSection('works-section')">Works</li>
+            <li onclick="showSection('blogs-section')">Blogs</li>
+            <li onclick="showSection('contact-section')">Contact</li>
+        </ul>
+    </div>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

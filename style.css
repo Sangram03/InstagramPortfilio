@@ -1,0 +1,135 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff7eb3;
+    text-align: center;
+    
+    
+    height: 90vh;
+}
+/* .sidebar{
+    background-color: rgb(254, 79, 245);
+    text-align: center;
+    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+    
+} */
+
+/* Sidebar styling */
+.sidebar {
+    margin-top: 120px;
+    margin-left: 10px;
+
+    display: flex;
+    align-items: center;      /* Center content vertically */
+    justify-content: center;  /* Center content horizontally */
+    height: 50vh;            /* Full viewport height */
+    background-color: #ff00ff; 
+    /* Bright pink background as per your image */
+    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* Additional styling for profile section */
+.profile {
+    text-align: center;
+}
+
+.circular-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.download-cv {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: limegreen;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    width: 15%;
+    background: rgb(254, 79, 245);
+    border-left: 2px solid #e3e4e8;
+    padding-top: 40px;
+    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    align-items: center;      /* Center content vertically */
+    justify-content: center;  /* Center content horizontally */
+    height: 50vh;
+    margin-top: 120px;
+    margin-right: 10px;
+    
+}
+img{
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.download-cv{
+    margin-left: 20px;
+    background-color: #06f006;
+    
+    
+}
+
+.right-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.right-sidebar li {
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.right-sidebar li:hover {
+    background: #06f006;
+    color: #007bff;
+    
+    
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
